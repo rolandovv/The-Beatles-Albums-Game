@@ -1,0 +1,133 @@
+/* styles.css */
+
+/* Player Details Container */
+.player-details-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.player-details-container h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.player-details-container .input-group {
+  margin-bottom: 15px;
+}
+
+.player-details-container label {
+  font-weight: bold;
+}
+
+.player-details-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+.player-details-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Error Message */
+.player-details-container .error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+
+/* random albums component -----------------*/
+.random-albums-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  
+  .random-albums-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .random-albums-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .random-albums-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .random-albums-container p {
+    font-size: 18px;
+  }
+  
+
+  /* play again buttons------------- */
+  .play-again {
+    /* margin-top: 5px; */
+    /* margin: 5px; */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #34db47;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .game-stats {
+    margin: 20px 0;
+  }
+  
+  .game-stats h2 {
+    font-size: 20px;
+  }
+  
+  .game-stats label {
+    font-size: 18px;
+    font-weight: bold;
+  }  
+
+
+  /* album component-----*/
+  .album-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .album-cover {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .album-details {
+    /* flex-grow: 1; */
+    text-align: start;
+  }
+  
+  
